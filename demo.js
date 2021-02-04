@@ -1,6 +1,6 @@
 let http = require('http')
 server = http.createServer(function(request, response) {
-    response.write('Hello mau')
+    response.write('Hello yo')
     response.end()
 })
 
