@@ -19,12 +19,6 @@ http.createServer(function(req,res){
                                 res.write('\n');
                                 res.end('Find out more: https://www.glistensoft.com/');
                                 break;
-                        case '/tecmint/authors':
-                                res.writeHead(200, { 'Content-Type': 'text/plain' });
-                                res.write('Tecmint Authors');
-                                res.write('\n\n');
-                                res.end('Find all our authors here: https://www.tecmint.com/who-we-are/');
-                                break;
                         default:
                                 res.writeHead(404, { 'Content-Type': 'text/plain' });
                                 res.end('Not Found');
