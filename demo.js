@@ -8,6 +8,8 @@ http.createServer(function(req,res){
         switch(q_string) {
                 case '/':
                                 res.writeHead(200, { 'Content-Type': 'text/plain' });
+			        res.write('Hi All !');
+			        res.write('\n\n');
                                 res.write('Welcome To GlistenSoft Demo of CI/CD Pipeline!')
                                 res.end();
                                 break;
@@ -16,7 +18,7 @@ http.createServer(function(req,res){
                                 res.write('About Us');
                                 res.write('\n\n');
                                 res.write('Glisten Software Pvt. Ltd. Baner, Pune');
-                                res.write('\n');
+                                res.write('\n\n');
                                 res.end('Find out more: https://www.glistensoft.com/');
                                 break;
                         default:
