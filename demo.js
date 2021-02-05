@@ -8,7 +8,7 @@ http.createServer(function(req,res){
         switch(q_string) {
                 case '/':
                                 res.writeHead(200, { 'Content-Type': 'text/plain' });
-                                res.write('Welcome To GlistenSoft Demo!')
+                                res.write('Welcome To GlistenSoft Demo of CI/CD Pipeline!')
                                 res.end();
                                 break;
                         case '/about':
