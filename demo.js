@@ -19,7 +19,7 @@ http.createServer(function(req,res){
                                 res.write('\n\n');
                                 res.write('Glisten Software Pvt. Ltd. Baner, Pune');
                                 res.write('\n\n');
-                                res.end('Find out more: https://www.glistensoft.com/');
+                                res.end('Find out more on: https://www.glistensoft.com/');
                                 break;
                         default:
                                 res.writeHead(404, { 'Content-Type': 'text/plain' });
